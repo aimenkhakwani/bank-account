@@ -1,0 +1,32 @@
+body {
+  font-family: 'Miriam Libre', sans-serif;
+}
+h1, h2 {
+  text-align: center;
+}
+.container{
+  margin-top: 4rem;
+  background-color: #80c1ff;
+  padding: 40px;
+  border-radius:8px;
+  min-height: 600px;
+}
+.col-md-6 {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 3rem;
+}
+.showThis{
+  display: none;
+}
+.row.showThis{
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+.row.showThis p{
+  font-size: 20px;
+}
+.btn {
+  margin-left: 40%;
+}
