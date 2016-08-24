@@ -15,29 +15,12 @@ Bankaccount.prototype.subtractBalance = function(withdrawl){
   this.userBalance = this.userBalance - withdrawl;
 }
 
-function calculateBalance(deposit, withdrawl){
-  if ((inputWithdrawl >= 0) && (inputDeposit >= 0)){
-    bankCustomer.addBalance(inputDeposit)
-    bankCustomer.subtractBalance(inputWithdrawl);
-  }
-  else if ((inputWithdrawl === NaN) && (inputDeposit >= 0)){
-    bankCustomer.addBalance(inputDeposit);
-    // bankCustomer.subtractBalance(inputWithdrawl);
-  }
-  else if ((inputWithdrawl >= 0) && (inputDeposit === NaN)){
-    bankCustomer.subtractBalance(inputWithdrawl);
-  }
-  else {
-    alert("Please enter a value.");
-  }
-}
-
 // ui logic
 $(".createAccount").submit(function(event){
   event.preventDefault();
 
  $(".showThis").show();
- 
+
   var inputName = $("#name").val();
   var inputInitialDeposit = parseFloat($("#initialDeposit").val());
   var bankCustomer = new Bankaccount(inputName, inputInitialDeposit);
