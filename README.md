@@ -21,4 +21,4 @@ _Users can create an account with an initial balance, then deposit or withdraw a
 _HTML, CSS, Bootstrap, jQuery, and JavaScript_
 
 ### License
-Copyright (c) 2016 **_Aimen Khakwani & Joanna Anderson**
+Copyright (c) 2016 **_Aimen Khakwani & Joanna Anderson_**
